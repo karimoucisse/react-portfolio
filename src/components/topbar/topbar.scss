@@ -57,7 +57,7 @@
                     height: 3px;
                     background-color: $mainColor;
                     transform-origin: left;
-                    transition: all 1s ease;
+                    transition: all 1.5s ease;
                 }
             }
         }
@@ -68,14 +68,14 @@
         .hamburger {
             span {
                 &:first-child {
-                    background-color: red;
+                    background-color: #fff;
                     transform: rotate(45deg);
                 }
                 &:nth-child(2) {
                     opacity: 0;
                 }
                 &:last-child {
-                    background-color: red;
+                    background-color: #fff;
                     transform: rotate(-45deg);
                 }
             }
