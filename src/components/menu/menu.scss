@@ -1,11 +1,11 @@
 @import "../../global.scss";
 .menu {
-    width: 300px;
+    width: 360px;
     height: 100vh;
     background-color: $mainColor;
     position: fixed;
     top: 70px;
-    right: -300px;
+    right: -360px;
     z-index: 2;
     display: flex;
     flex-direction: column;

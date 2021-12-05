@@ -32,6 +32,10 @@
                 align-items: baseline;
                 margin-right: 20px;
 
+                @include mobile{
+                    display: none;
+                }
+
                 i {
                     font-size: 20px;
                     margin-right: 8px;
