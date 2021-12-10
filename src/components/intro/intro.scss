@@ -32,9 +32,11 @@
                 justify-content: center;
             }
 
-            img {
-                height: 88%;
+            .img {
+                height: 400px;
+                width: 400px;
                 border-radius: 50%;
+                background: #ffff;
                 // position: absolute;
                 // left: -80px;
 
@@ -118,7 +120,7 @@
 
             i {
                 font-size: 60px;
-                animation: arronBlink 1s initial;
+                animation: arronBlink 1s infinite;
 
                 &:hover {
                     animation: none;

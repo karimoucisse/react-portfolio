@@ -1,3 +1,37 @@
 .project {
-    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 239, 239);
+    
+    .projectContainer {
+        height: 94%;
+        width: 100%;
+        // background-color: red;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        .projectElement {
+            width: 450px;
+            height: 300px;
+            overflow: hidden;
+            box-shadow: 4px 4px 4px rgb(148, 146, 146);
+            border-radius: 20px;
+            margin-bottom: 20px;
+            margin-left: 5px;
+            
+            img {
+                width: 100%;
+                height: 100%;
+                // border-radius: 20px;
+                // object-fit: cover;
+                
+    
+                &:hover {
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+    
 }

@@ -1,9 +1,13 @@
 import "./intro.scss"
 import { useEffect, useRef } from "react"
 import { init } from "ityped"
+import { useMediaQuery } from 'react-responsive'
 
 export default function Intro() {
     const textref = useRef()
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-width: 900px)'
+    })
 
     useEffect(() => {
         init(textref.current, { 
@@ -17,7 +21,8 @@ export default function Intro() {
         <div className = "intro" id= "intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="/assets/imageProfil.png" alt="profil-img" />
+                    <div className="img">img</div>
+                    {/* <img src="/assets/imageProfil.png" alt="profil-img" /> */}
                 </div>
             </div>
             <div className="right">
@@ -26,7 +31,7 @@ export default function Intro() {
                     <h1>Karimou Cisse</h1>
                     <h3>Je suis <span ref={textref}></span></h3>
                 </div>
-                <a href="#projet">
+                <a href={isDesktopOrLaptop ? "#project" : "#projectMobile"}>
                     <i className="fas fa-chevron-down"></i>
                 </a>
             </div>
