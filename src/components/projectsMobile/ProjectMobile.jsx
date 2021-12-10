@@ -8,13 +8,16 @@ const Container = styled.div`
 `
 const Image = styled.img`
   display : block;
-  width : 100vw;
+  width : 80vw;
   height : 68vh;
   margin-bottom : 70px;
   object-fit: fill;
+  box-shadow : 4px 4px 4px grey;
 `
 const CarouselItemElement = styled.div`
   position : relative;
+  display : flex;
+  justify-content : center;
 `
 const Link = styled.a`
   // position : relative;
