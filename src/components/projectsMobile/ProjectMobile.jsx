@@ -39,19 +39,27 @@ export default function ProjectMobile() {
       <Container className="projectMobile" id= "projectMobile">
         <Carousel variant="dark">
             <Carousel.Item>
-              <Link href="https://karimoucisse.github.io/Deezer/" target="_blank">
+              <Link 
+                href="https://projet-2048.netlify.app/" 
+                target="_blank"
+                rel="noreferrer"  
+              >
                 <CarouselItemElement>
                   <Image 
-                    src="assets/deezer.png"
+                    src="assets/2048.png"
                     alt="First slide" 
                   />
-                  <Resume>Deezer</Resume>
+                  <Resume>Jeux 2048</Resume>
                 </CarouselItemElement>
               </Link>
             </Carousel.Item>
 
             <Carousel.Item>
-              <Link href="https://karimoucisse.github.io/maquette/" target="_blank" >
+              <Link 
+                href="https://karimoucisse.github.io/maquette/" 
+                target="_blank"
+                rel="noreferrer"
+              >
                 <CarouselItemElement>
                   <Image 
                     src="assets/reservia.png"
@@ -63,13 +71,32 @@ export default function ProjectMobile() {
             </Carousel.Item>
 
             <Carousel.Item>
-              <Link href="https://gameofthrone.netlify.app/" target="_blank">
+              <Link 
+                href="https://gameofthrone.netlify.app/" 
+                target="_blank"
+                rel="noreferrer"
+              >
                 <CarouselItemElement>
                   <Image 
                     src="assets/gameofthrone.png" 
                     alt="third slide"
                   />
                   <Resume>Game of Throne</Resume>
+                </CarouselItemElement>
+              </Link>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Link 
+                href="https://karimoucisse.github.io/Deezer/" 
+                target="_blank"
+                rel="noreferrer"
+              >
+                <CarouselItemElement>
+                  <Image 
+                    src="assets/deezer.png"
+                    alt="fourth slide" 
+                  />
+                  <Resume>Deezer</Resume>
                 </CarouselItemElement>
               </Link>
             </Carousel.Item>
