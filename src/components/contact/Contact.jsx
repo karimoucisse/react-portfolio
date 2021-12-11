@@ -23,12 +23,12 @@ export default function Contact() {
                         </div>
                             <ul className="reseau">
                                 <li>
-                                    <a href="#">
+                                    <a href="https://github.com/karimoucisse">
                                         <i className="fab fa-github"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/karimou-cisse/">
                                         <i className="fab fa-linkedin"></i>
                                     </a>
                                 </li>
