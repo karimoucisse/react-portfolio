@@ -1,9 +1,16 @@
 $mainColor : #15023a;
 
 $width : 770px;
+$laptopwidth : 1009px;
 
 @mixin mobile {
     @media (max-width: #{$width}) {
         @content
     }
-}
+};
+
+@mixin laptop {
+    @media (max-width : #{$laptopwidth}) {
+        @content
+    }
+};
