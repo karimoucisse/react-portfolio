@@ -25,19 +25,19 @@ const Link = styled.a`
   // position : relative;
   text-decoration : none;
 `
-const Resume = styled.div`
-  display : flex;
-  justify-content : center;
-  align-items : center;
-  height : 80px;
-  position : absolute;
-  bottom : 60px;
-  left : 0;
-  background-color : rgba(0,0,0,0.7);
-  width : 100vw;
-  color : #fff;
-  font-size : 30px;
-`
+// const Resume = styled.div`
+//   display : flex;
+//   justify-content : center;
+//   align-items : center;
+//   height : 80px;
+//   position : absolute;
+//   bottom : 60px;
+//   left : 0;
+//   background-color : rgba(0,0,0,0.7);
+//   width : 100vw;
+//   color : #fff;
+//   font-size : 30px;
+// `
 
 export default function ProjectMobile() {
     return (
