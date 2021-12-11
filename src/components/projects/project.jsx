@@ -11,7 +11,7 @@ export default function Projet() {
                         rel="noreferrer"
                     >
                         <img 
-                            src="assets/2048.png" alt="2048" 
+                            src="assets/2048.jpg" alt="2048" 
                         />
                     </a>
                 </div>
@@ -33,7 +33,7 @@ export default function Projet() {
                         rel="noreferrer"
                     >
                         <img 
-                            src="assets/gameofthrone.png" alt="game of throne" 
+                            src="assets/gameofthrone.jpg" alt="game of throne" 
                         />
                     </a>
                 </div>

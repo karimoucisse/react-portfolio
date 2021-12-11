@@ -5,14 +5,16 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   background : #ffff;
+  overflow :hidden;
 `
 const Image = styled.img`
   display : block;
-  width : 80vw;
-  height : 68vh;
+  width : 90vw;
+  height : 78vh;
   margin-bottom : 70px;
   object-fit: fill;
   box-shadow : 4px 4px 4px grey;
+  border-radius : 20px;
 `
 const CarouselItemElement = styled.div`
   position : relative;
@@ -49,10 +51,10 @@ export default function ProjectMobile() {
               >
                 <CarouselItemElement>
                   <Image 
-                    src="assets/2048.png"
+                    src="assets/2048.jpg"
                     alt="First slide" 
                   />
-                  <Resume>Jeux 2048</Resume>
+                  {/* <Resume>Jeux 2048</Resume> */}
                 </CarouselItemElement>
               </Link>
             </Carousel.Item>
@@ -68,7 +70,7 @@ export default function ProjectMobile() {
                     src="assets/reservia.png"
                     alt="second slide" 
                   />
-                  <Resume>Reservia</Resume>
+                  {/* <Resume>Reservia</Resume> */}
                 </CarouselItemElement>
               </Link>
             </Carousel.Item>
@@ -81,10 +83,10 @@ export default function ProjectMobile() {
               >
                 <CarouselItemElement>
                   <Image 
-                    src="assets/gameofthrone.png" 
+                    src="assets/gameofthrone.jpg" 
                     alt="third slide"
                   />
-                  <Resume>Game of Throne</Resume>
+                  {/* <Resume>Game of Throne</Resume> */}
                 </CarouselItemElement>
               </Link>
             </Carousel.Item>
@@ -99,7 +101,7 @@ export default function ProjectMobile() {
                     src="assets/deezer.png"
                     alt="fourth slide" 
                   />
-                  <Resume>Deezer</Resume>
+                  {/* <Resume>Deezer</Resume> */}
                 </CarouselItemElement>
               </Link>
             </Carousel.Item>
