@@ -6,11 +6,12 @@ import styled from 'styled-components'
 const Container = styled.div`
   background : #ffff;
   overflow :hidden;
+  padding-top : 80px;
 `
 const Image = styled.img`
   display : block;
   width : 90vw;
-  height : 78vh;
+  height : 50vh;
   margin-bottom : 70px;
   object-fit: fill;
   box-shadow : 4px 4px 4px grey;
